@@ -27,7 +27,7 @@ int user_choice;
 show.println("Olá, Como se chama?");
 String nome = userentry.nextLine();
 show.println("Prazer em conhece-lo" + nome +"!");
-show.println(nome + "Voce que jogar comigo?");
+show.println(nome + " Voce que jogar comigo?");
 show.println("/n informe o número da sua opção./n 1 -> sim. /n 2 -> não /n" );
  op = userentry.nextInt();
  
@@ -40,7 +40,7 @@ show.println("Que Pena!! mas tudo bem, fica pra próxima");
       show.println("Eu vou escolher um número de 0 a 10");
        show.println("tente advinahr qual é, e você será o vencedor");
     
-cpu_choice = gerador.nextInt(11);
+cpu_choice = gerador.nextInt(21);
    show.println ("OK, " +nome+ ". Eu já escolhi");
    show.println ("ok, agora tente advinhar!!") ;
 
